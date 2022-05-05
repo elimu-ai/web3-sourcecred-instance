@@ -1,1 +1,8 @@
-{"repositories": ["sourcecred-test/example-github"]}
+{
+  "repositories": [
+    "elimu-ai/web3-sourcecred-instance",
+    "elimu-ai/wiki",
+    "elimu-ai/appstore",
+    "elimu-ai/webapp"
+  ]
+}
