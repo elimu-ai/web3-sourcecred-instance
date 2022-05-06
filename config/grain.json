@@ -1,7 +1,7 @@
 {
   "allocationPolicies": [
     {
-      "budget": "80000", // 80,000 $ELIMU per week
+      "budget": "80000",
       "discount": 0.5,
       "policyType": "RECENT"
     }
