@@ -6,7 +6,7 @@
       "policyType": "RECENT"
     }
   ],
-  "maxSimultaneousDistributions": 1,
+  "maxSimultaneousDistributions": 4,
   "integration": { 
     "type": "csv" 
   },
