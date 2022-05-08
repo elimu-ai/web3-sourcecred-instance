@@ -9,5 +9,5 @@
   "maxSimultaneousDistributions": 4,
   "integration": { 
     "type": "csv" 
-  },
+  }
 }
