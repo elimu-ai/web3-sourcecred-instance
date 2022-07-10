@@ -31,6 +31,9 @@ jobs:
 
       - name: Distribute Grain 💸
         run: yarn grain > grain_output.txt
+      
+      - name: Print Arrays
+        run: node output/grainIntegration/print-arrays.js
 
       - name: Set environment variables
         id: pr_details
