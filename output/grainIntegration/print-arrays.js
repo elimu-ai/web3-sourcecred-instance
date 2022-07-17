@@ -31,13 +31,10 @@ function printArrays() {
                         let values = []
                         csvRows.forEach(function(row, index) {
                             recipients[index] = row.receiver
-                            if (row.amount.length > 18) {
-                                row.amount = row.amount.substring(0, 18)
-                            }
-                            values[index] = Number(row.amount)
+                            values[index] = row.amount
                         })
-                        console.log('recipients:\n', JSON.stringify(recipients))
-                        console.log('values:\n', JSON.stringify(values))
+                        console.log('recipients:\n', JSON.stringify(recipients).replaceAll('"', ''))
+                        console.log('values:\n', JSON.stringify(values).replaceAll('"', ''))
                     })
             }
         })
