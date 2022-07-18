@@ -1,7 +1,7 @@
 {
   "allocationPolicies": [
     {
-      "budget": "40312.5",
+      "budget": "25000",
       "numIntervalsLookback": 1,
       "policyType": "IMMEDIATE"
     }
