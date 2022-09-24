@@ -1,5 +1,11 @@
 {
   "allocationPolicies": [
+    {
+      "budget": "20000",
+      "numIntervalsLookback": 1,
+      "policyType": "IMMEDIATE"
+    }
   ],
-  "maxSimultaneousDistributions": 1
+  "maxSimultaneousDistributions": 4,
+  "integration": { "type": "csv" }
 }
